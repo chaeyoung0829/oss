@@ -1,0 +1,72 @@
+
+<!DOCTYPE html> <!--ductype은 문서의 첫 부분에서 문서 유형(웹 브라우저에게 이 문서는 뭐니까 잘 처리해주라는 뜻을 전달하고 있음)을 지정하는 단일 태그-->
+<html> <!--html문서의 시작과 끝--><!--안에 들어가는 내용들 또한 태그로 구성이 될 수 있음-->
+    <head> <!--html에 대한 정보를 나타내는 역할(즉, html문서의 설정태그)-->
+        <meta charset="utf-8"><!--문자 인코딩(한글을 표시하기 위해 문자 세트를 지정하는 작업) 및 문서 키워드 등에 대한 요약 정보를 기입하는 단일 태그, character set=utf-8은 영문과 한글을 모두 사용하기 위해 쓴 것-->
+        <title>Page Title</title><!--문서의 제목을 쓰는 곳-->
+    </head>
+<body> <!--실제 브라우저 화면에 표시할 내용을 작성하는 곳-->
+        <h1>This is a Heading</h1><!--h(headline)태그: 제목 요소를 나타내는 태그(숫자와 함께 사용되며 h1일때 글씨크기가 가장 크고 h6일때 가장 작다)-->
+        <hr><!--수평선을 나타내는 태그(주제 변경, 내용 구분을 위해 사용)-->
+        <p>This is a paragraph.</p><!--p(paragraph)태그: 문단 요소를 나타내는 태그, 가장 많이 사용되는 태그-->
+        <p> 
+            공&nbsp;&nbsp;&nbsp;&nbsp;백<!--공백을 두 번 이상 표시하고자 할 때는 &nbsp사용(원래 공백이 한 번 밖에 안되서, 엔터도 안됨(<br/>로 대체))-->
+            <br/>그리고<br/><br/><br/>줄<br/>바<br/>꿈<!--br태그가 줄바꿈을 의미함-->
+        </p>
+
+</body>
+</html>
+
+
+h1 {
+    color: red;
+}
+
+.cls {
+    color: yellow;
+}
+
+#head {
+    font-size: 300%;
+}
+
+… 
+< body > 
+<h1>This is a Heading</h1>
+
+<h1 class="“cls”">This is a class Heading</h1>
+
+<h1 id="“head”">This is a id Heading</h1>
+<h1>This is a Heading</h1>
+
+</body>
+…
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Page Title</title>
+        <link rel="“stylesheet”" href="“style.css”">
+    </head>
+    ……
+</html>
+…… 
+< body > 
+    <img src="“link" or="or" filename”="filename”">
+    <form action="“”">
+        <input type="“text”"></form>
+
+</body>
+
+……
+
+
+
+
+
+
+
+
+
+
